@@ -8,7 +8,7 @@
   <title>Video Editing & Color Grading | Pace Media</title>
 
   <meta name="description"
-        content="Learn how professional video editing and color grading enhance raw footage, create visual moods, and improve the overall quality of business videos with Pace Media.">
+        content="Explore video editing and color grading techniques for creating polished videos, enhancing visual moods, and adding cinematic effects to raw footage with Pace Media.">
 
   <meta name="robots" content="index, follow">
 
@@ -20,7 +20,7 @@
   <meta property="og:title"
         content="Video Editing & Color Grading | Pace Media">
   <meta property="og:description"
-        content="Explore professional video editing and color grading techniques that transform raw footage into polished and visually engaging videos.">
+        content="Learn how video editing and color grading can transform raw footage into polished videos with enhanced colors, moods, and cinematic effects.">
   <meta property="og:url"
         content="https://pacemedia.in/services/color-grading-videos">
   <meta property="og:image"
@@ -32,7 +32,7 @@
   <meta name="twitter:title"
         content="Video Editing & Color Grading | Pace Media">
   <meta name="twitter:description"
-        content="Professional video editing and color grading for polished, engaging, and visually consistent videos.">
+        content="Explore professional video editing, color grading, visual enhancement, and cinematic effects for business videos.">
   <meta name="twitter:image"
         content="https://pacemedia.in/assets/img/white-logo.png">
 
@@ -43,6 +43,7 @@
     "@type": "Service",
     "name": "Video Editing and Color Grading",
     "serviceType": "Video Editing and Color Grading",
+    "url": "https://pacemedia.in/services/color-grading-videos",
     "provider": {
       "@type": "Organization",
       "name": "Pace Media",
@@ -50,11 +51,11 @@
       "logo": "https://pacemedia.in/assets/img/white-logo.png",
       "telephone": "+91 7204833364",
       "email": "info@pacemedia.in"
-    },
-    "url": "https://pacemedia.in/services/color-grading-videos"
+    }
   }
   </script>
 
+  <!-- FAQ Schema -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -65,7 +66,7 @@
         "name": "What is color grading in video editing?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Color grading is the process of adjusting colors and visual tones in video footage to create a specific mood and improve the overall visual appearance."
+          "text": "Color grading uses colors and visual tones to create moods and influence how customers experience a video."
         }
       },
       {
@@ -73,15 +74,15 @@
         "name": "Why is professional video editing important?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Professional video editing helps convert raw footage into a polished video and improves the overall presentation of visual content."
+          "text": "Professional video editing helps convert raw footage into polished videos and improves their overall visual presentation."
         }
       },
       {
         "@type": "Question",
-        "name": "How does color grading affect a video?",
+        "name": "What is cinematic color grading?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Color grading can influence the mood and visual experience of a video by using colors to create a particular atmosphere."
+          "text": "Cinematic color grading applies carefully selected color treatments to footage to create a particular visual mood and cinematic appearance."
         }
       }
     ]
@@ -101,9 +102,9 @@
 
     body {
       font-family: Arial, Helvetica, sans-serif;
-      line-height: 1.7;
       color: #222;
       background: #fff;
+      line-height: 1.7;
     }
 
     a {
@@ -116,28 +117,27 @@
     }
 
     img {
+      display: block;
       max-width: 100%;
       height: auto;
-      display: block;
     }
 
     .container {
       width: min(1120px, 92%);
-      margin: auto;
+      margin: 0 auto;
     }
 
     /* Header */
-    header {
-      background: #111;
-      color: #fff;
+    .site-header {
       position: sticky;
       top: 0;
       z-index: 1000;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+      background: #111;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
     }
 
     .header-inner {
-      min-height: 68px;
+      min-height: 64px;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -146,17 +146,16 @@
 
     .logo img {
       width: 82px;
-      height: auto;
     }
 
-    nav ul {
-      list-style: none;
+    .main-nav ul {
       display: flex;
       align-items: center;
       gap: 22px;
+      list-style: none;
     }
 
-    nav a {
+    .main-nav a {
       color: #fff;
       font-size: 14px;
       font-weight: 600;
@@ -164,18 +163,18 @@
 
     /* Hero */
     .hero {
-      padding: 80px 0 55px;
       background: #f5f5f5;
+      padding: 80px 0 60px;
     }
 
     .hero h1 {
-      font-size: clamp(32px, 5vw, 52px);
+      font-size: clamp(34px, 5vw, 52px);
       line-height: 1.15;
       margin-bottom: 18px;
     }
 
-    .hero h3 {
-      font-size: 24px;
+    .hero h2 {
+      font-size: 25px;
       margin-bottom: 18px;
     }
 
@@ -185,62 +184,78 @@
       color: #444;
     }
 
-    /* Sections */
+    /* Content */
     section {
       padding: 65px 0;
     }
 
-    section h2 {
+    .section-title {
       font-size: 32px;
       line-height: 1.25;
       margin-bottom: 20px;
     }
 
-    section p {
-      margin-bottom: 18px;
+    .content {
       max-width: 900px;
     }
 
-    .content-box {
-      background: #f8f8f8;
-      border-radius: 12px;
-      padding: 32px;
-      margin-top: 30px;
+    .content p {
+      margin-bottom: 20px;
     }
 
-    .content-box h2 {
+    .content a {
+      font-weight: 600;
+    }
+
+    /* Information Box */
+    .info-box {
+      background: #f7f7f7;
+      padding: 30px;
+      margin-top: 30px;
+      border-radius: 10px;
+    }
+
+    .info-box h2 {
+      font-size: 26px;
       margin-bottom: 15px;
     }
 
     /* Related Links */
-    .related-links {
-      margin-top: 30px;
-      padding: 25px;
-      border-left: 4px solid #111;
+    .related {
+      margin-top: 40px;
+      padding: 28px;
       background: #f5f5f5;
+      border-left: 4px solid #111;
     }
 
-    .related-links h2 {
-      font-size: 24px;
+    .related h2 {
+      font-size: 25px;
+      margin-bottom: 15px;
     }
 
-    .related-links a {
+    .related p {
+      margin-bottom: 12px;
+    }
+
+    .related a {
       font-weight: 600;
     }
 
     /* Video */
-    .video-wrapper {
-      position: relative;
-      width: 100%;
+    .video-section {
+      background: #fafafa;
+    }
+
+    .video-container {
       max-width: 900px;
-      aspect-ratio: 16 / 9;
       margin: 30px auto 0;
+      aspect-ratio: 16 / 9;
       overflow: hidden;
-      border-radius: 12px;
+      border-radius: 10px;
       background: #000;
     }
 
-    .video-wrapper iframe {
+    .video-container iframe {
       width: 100%;
       height: 100%;
       border: 0;
@@ -255,33 +270,36 @@
 
     .cta h2 {
       color: #fff;
+      font-size: 34px;
+      margin-bottom: 10px;
+    }
+
+    .cta h3 {
+      font-size: 22px;
+      margin-bottom: 20px;
     }
 
     .cta p {
-      margin-left: auto;
-      margin-right: auto;
+      margin-bottom: 10px;
+    }
+
+    .cta a {
+      color: #fff;
     }
 
     .cta-button {
       display: inline-block;
-      margin-top: 12px;
-      padding: 13px 25px;
+      margin-top: 18px;
+      padding: 13px 26px;
       background: #fff;
-      color: #111;
-      font-weight: 700;
+      color: #111 !important;
       border-radius: 5px;
-      text-decoration: none;
-    }
-
-    .cta-button:hover {
-      text-decoration: none;
-      opacity: 0.9;
+      font-weight: 700;
     }
 
     /* FAQ */
     .faq-item {
-      margin-bottom: 22px;
-      padding-bottom: 20px;
+      padding: 22px 0;
       border-bottom: 1px solid #ddd;
     }
 
@@ -304,7 +322,8 @@
     }
 
     footer p {
-      max-width: 700px;
+      max-width: 800px;
+      margin-bottom: 15px;
     }
 
     footer a {
@@ -312,13 +331,12 @@
     }
 
     .footer-links {
-      margin: 25px 0;
+      margin-top: 30px;
     }
 
     .footer-links a {
-      margin-right: 18px;
       display: inline-block;
-      margin-bottom: 8px;
+      margin: 0 18px 10px 0;
     }
 
     .copyright {
@@ -332,53 +350,54 @@
     @media (max-width: 768px) {
 
       .header-inner {
-        min-height: 60px;
+        min-height: 58px;
       }
 
       .logo img {
         width: 72px;
       }
 
-      nav ul {
+      .main-nav ul {
         gap: 10px;
         flex-wrap: wrap;
         justify-content: flex-end;
       }
 
-      nav a {
+      .main-nav a {
         font-size: 12px;
       }
 
       .hero {
-        padding: 55px 0 40px;
+        padding: 55px 0 45px;
       }
 
       section {
         padding: 45px 0;
       }
 
-      section h2 {
-        font-size: 27px;
-      }
-
       .hero p {
         font-size: 16px;
       }
 
-      .content-box {
+      .section-title {
+        font-size: 28px;
+      }
+
+      .info-box,
+      .related {
         padding: 22px;
       }
     }
 
     @media (max-width: 520px) {
 
-      nav ul {
-        gap: 7px;
+      .main-nav li:nth-child(2),
+      .main-nav li:nth-child(3) {
+        display: none;
       }
 
-      nav li:nth-child(2),
-      nav li:nth-child(3) {
-        display: none;
+      .main-nav ul {
+        gap: 8px;
       }
 
       .hero h1 {
@@ -391,24 +410,32 @@
 <body>
 
   <!-- Header -->
-  <header>
+  <header class="site-header">
+
     <div class="container header-inner">
 
-      <a class="logo"
-         href="https://pacemedia.in/"
-         aria-label="Pace Media Home">
+      <a
+        class="logo"
+        href="https://pacemedia.in/"
+        aria-label="Pace Media Home">
+
         <img
           src="https://pacemedia.in/assets/img/white-logo.png"
           alt="Pace Media Logo"
           width="82"
           height="auto"
         >
+
       </a>
 
-      <nav aria-label="Main Navigation">
+      <nav class="main-nav" aria-label="Main navigation">
+
         <ul>
+
           <li>
-            <a href="https://pacemedia.in/why-us">Why Us</a>
+            <a href="https://pacemedia.in/why-us">
+              Why Us
+            </a>
           </li>
 
           <li>
@@ -424,20 +451,29 @@
           </li>
 
           <li>
-            <a href="https://pacemedia.in/portfolio">Portfolio</a>
+            <a href="https://pacemedia.in/portfolio">
+              Portfolio
+            </a>
           </li>
 
           <li>
-            <a href="https://pacemedia.in/blog">Blogs</a>
+            <a href="https://pacemedia.in/blog">
+              Blogs
+            </a>
           </li>
 
           <li>
-            <a href="https://pacemedia.in/contact">Contact</a>
+            <a href="https://pacemedia.in/contact">
+              Contact
+            </a>
           </li>
+
         </ul>
+
       </nav>
 
     </div>
+
   </header>
 
 
@@ -445,137 +481,155 @@
 
     <!-- Hero -->
     <section class="hero">
+
       <div class="container">
 
         <h1>Video Editing Color Grading</h1>
 
-        <h3>Color Grading Videos</h3>
+        <h2>Color Grading Videos</h2>
 
         <p>
           Understanding how colors affect emotions is the first step in
           <a href="https://pacemedia.in/services/color-grading-videos">
             color grading videos
           </a>.
-          Your customers can experience different emotions through the way
-          colors are used to create moods and visual experiences.
+          Customers can experience different emotions through the way colors
+          are used to create moods and visual experiences.
         </p>
 
       </div>
+
     </section>
 
 
     <!-- Main Content -->
     <section>
+
       <div class="container">
 
-        <h2>Professional Video Editing and Color Grading</h2>
+        <div class="content">
 
-        <p>
-          In business, evoking emotions is one of the powerful ways to
-          communicate with an audience. Colors can engage the senses, create
-          visual moods, and help connect viewers with a business.
-        </p>
-
-        <p>
-          <a href="https://pacemedia.in/services/color-grading-videos">
-            Professional video editing
-          </a>
-          is necessary when converting raw footage into polished videos.
-          Effective color grading can improve the visual presentation of
-          business videos and create a more consistent viewing experience.
-        </p>
-
-        <p>
-          Depending on the requirements of your story, we color-grade raw
-          footage to add rich cinematic effects and enhance the overall
-          appearance of the video.
-        </p>
-
-        <p>
-          Professional
-          <a href="https://pacemedia.in/services/color-grading-videos">
-            video editing and color grading
-          </a>
-          can help businesses present their products, services, and messages
-          through visually refined video content.
-        </p>
-
-        <div class="content-box">
-
-          <h2>How Color Grading Enhances Videos</h2>
+          <h2 class="section-title">
+            Professional Video Editing and Color Grading
+          </h2>
 
           <p>
-            Color grading plays an important role in shaping the visual mood
-            of video content. Different color treatments can influence how
-            viewers experience a scene and can support the story being told.
+            In business, evoking emotions is one of the most powerful tools.
+            Colors can engage customers' senses, create visual moods, and
+            connect them with a business.
           </p>
 
           <p>
-            By combining video editing with appropriate color grading,
-            raw footage can be developed into a more polished and visually
-            consistent video.
+            <a href="https://pacemedia.in/services/color-grading-videos">
+              Professional video editing
+            </a>
+            is necessary when converting raw videos into professional videos.
+            Effective color grading can enhance the visual presentation of
+            footage and support the overall story.
           </p>
 
           <p>
-            The process can include adjusting the overall color appearance
-            of footage and creating visual effects that suit the requirements
-            of the story.
+            Depending on your story requirements, raw footage can be
+            color-graded to add rich cinematic effects to your videos.
+            <a href="https://pacemedia.in/services/color-grading-videos">
+              Cinematic color grading
+            </a>
+            can help create a specific visual mood for video content.
+          </p>
+
+          <p>
+            Businesses can use
+            <a href="https://pacemedia.in/services/color-grading-videos">
+              video editing services
+            </a>
+            to turn raw footage into polished visual content.
+            Professional editing and color treatment can improve the overall
+            viewing experience.
           </p>
 
         </div>
 
 
-        <!-- Topic Based Anchor Links -->
-        <div class="related-links">
+        <!-- Color Grading Information -->
+        <div class="info-box">
 
-          <h2>Related Video Production Resources</h2>
+          <h2>Why Color Grading Matters in Video</h2>
+
+          <p>
+            Color grading influences the way viewers experience the visuals
+            in a video. Different colors can be used to create different
+            moods and visual impressions.
+          </p>
+
+          <p>
+            When combined with professional editing, color grading can help
+            transform raw footage into a more polished and visually
+            consistent video.
+          </p>
+
+          <p>
+            Depending on the requirements of the story, colors and visual
+            tones can be adjusted to complement the content and create
+            cinematic effects.
+          </p>
+
+        </div>
+
+
+        <!-- Related Topic Links -->
+        <div class="related">
+
+          <h2>Related Video Production Topics</h2>
 
           <p>
             Explore the
             <a href="https://pacemedia.in/portfolio">
-              Pace Media video production portfolio
+              video production portfolio
             </a>
-            to view examples of video-related work.
+            to learn more about Pace Media's work.
           </p>
 
           <p>
-            You can also learn more about
+            Learn more about
             <a href="https://pacemedia.in/services/corporate-video">
               corporate video production
             </a>
-            and how professional video content can support business
-            communication.
+            for business communication and visual content.
           </p>
 
           <p>
-            For project enquiries, visit our
+            For project enquiries, you can
             <a href="https://pacemedia.in/contact">
-              video production contact page
+              contact Pace Media
             </a>.
           </p>
 
         </div>
 
       </div>
+
     </section>
 
 
-    <!-- Video -->
-    <section>
+    <!-- YouTube Video -->
+    <section class="video-section">
+
       <div class="container">
 
-        <h2>Video Editing and Color Grading Example</h2>
+        <h2 class="section-title">
+          Video Editing and Color Grading
+        </h2>
 
         <p>
-          Watch the video below to explore visual content related to
-          professional video production and color treatment.
+          Watch the video below for visual content related to video editing
+          and color grading.
         </p>
 
-        <div class="video-wrapper">
+        <div class="video-container">
 
           <iframe
             src="https://www.youtube.com/embed/t4IpDC7ZKVk"
-            title="Pace Media Video Editing and Color Grading Video"
+            title="Video Editing and Color Grading - Pace Media"
             loading="lazy"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen>
@@ -584,45 +638,60 @@
         </div>
 
       </div>
+
     </section>
 
 
     <!-- FAQ -->
     <section>
+
       <div class="container">
 
-        <h2>Frequently Asked Questions</h2>
+        <h2 class="section-title">
+          Frequently Asked Questions
+        </h2>
 
         <div class="faq-item">
-          <h3>What is color grading in video editing?</h3>
+
+          <h3>
+            What is color grading in video editing?
+          </h3>
 
           <p>
-            Color grading is the process of adjusting colors and visual tones
-            in video footage to create a particular mood and improve the
-            overall visual appearance.
+            Color grading uses colors and visual tones to create moods and
+            influence how customers experience a video.
           </p>
+
         </div>
 
         <div class="faq-item">
-          <h3>Why is professional video editing important?</h3>
+
+          <h3>
+            Why is professional video editing important?
+          </h3>
 
           <p>
-            Professional video editing helps convert raw footage into a
-            polished video and improves the overall presentation of visual
-            content.
+            Professional video editing helps convert raw footage into
+            polished videos and improves their overall visual presentation.
           </p>
+
         </div>
 
         <div class="faq-item">
-          <h3>How does color grading affect a video?</h3>
+
+          <h3>
+            What is cinematic color grading?
+          </h3>
 
           <p>
-            Color grading can influence the mood and visual experience of a
-            video by using colors to create a particular atmosphere.
+            Cinematic color grading applies selected color treatments to
+            footage to create a particular visual mood and appearance.
           </p>
+
         </div>
 
       </div>
+
     </section>
 
 
@@ -636,16 +705,7 @@
         <h3>Need A Successful Project?</h3>
 
         <p>
-          For enquiries about
-          <a href="https://pacemedia.in/services/color-grading-videos"
-             style="color:#fff;">
-            video editing and color grading
-          </a>,
-          contact Pace Media.
-        </p>
-
-        <p>
-          <strong>+91 7204833364 | 9900118297</strong>
+          +91 7204833364 | 9900118297
         </p>
 
         <p>
@@ -684,46 +744,50 @@
 
         <h2>Quick Links</h2>
 
-        <a href="https://pacemedia.in/why-us">Why Us</a>
+        <a href="https://pacemedia.in/why-us">
+          Why Us
+        </a>
 
-        <a href="https://pacemedia.in/blog">Blogs</a>
+        <a href="https://pacemedia.in/blog">
+          Blogs
+        </a>
 
-        <a href="https://pacemedia.in/contact">Contact</a>
+        <a href="https://pacemedia.in/contact">
+          Contact
+        </a>
 
         <a href="https://pacemedia.in/privacy-policy">
           Privacy Policy
         </a>
 
-        <a href="https://pacemedia.in/career">Career</a>
+        <a href="https://pacemedia.in/career">
+          Career
+        </a>
 
       </div>
 
 
-      <div>
+      <h2>Get In Touch</h2>
 
-        <h2>Get In Touch</h2>
+      <p>
+        <a href="mailto:info@pacemedia.in">
+          info@pacemedia.in
+        </a>
+        |
+        <a href="mailto:pacemediaoffice@gmail.com">
+          pacemediaoffice@gmail.com
+        </a>
+      </p>
 
-        <p>
-          <a href="mailto:info@pacemedia.in">
-            info@pacemedia.in
-          </a>
-          |
-          <a href="mailto:pacemediaoffice@gmail.com">
-            pacemediaoffice@gmail.com
-          </a>
-        </p>
-
-        <p>
-          <a href="tel:+917204833364">
-            +91 7204833364
-          </a>
-          |
-          <a href="tel:+919900118297">
-            9900118297
-          </a>
-        </p>
-
-      </div>
+      <p>
+        <a href="tel:+917204833364">
+          +91 7204833364
+        </a>
+        |
+        <a href="tel:+919900118297">
+          9900118297
+        </a>
+      </p>
 
 
       <div class="copyright">
